@@ -1,0 +1,33 @@
+.TH man 3 "23 April 2022" "0.01" "_printf man page"
+
+.SH NAME
+
+.B _printf
+
+- A simple printf function
+
+.SH SYNOPSIS
+
+To apply this function the #include "main.h" header is required.
+
+.SH DESCRIPTION
+
+The _printf() function prints output according to the format specified.
+
+This function write its output to the stdout, the standard output stream.
+
+.SH usage
+
+To use _printf you have to use the following key characters preceeded by % symbol.
+
+.Example
+char *str = "Hello World"
+printf("%s\n", str);
+
+.SH RETURN VALUES
+
+The _printf() function returns an number of characters printed.
+
+.SH AUTHOR
+
+Fikadu Abdisa
